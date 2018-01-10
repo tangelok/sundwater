@@ -16,9 +16,12 @@ body {
 }
 p {
   font-weight: 400;
+  color: #26393D;
 }
 h1 {
   font-weight: 600;
+  font-size: 48px;
+  color: #26393D;
 }
 
 /* ----------------------------------------
@@ -33,6 +36,18 @@ Grid Systems
 
 
 /* IF using no space between label col as full-col-1-2 */
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+.read-more {
+  border: 2px solid #D0A825;
+  margin-top: 70px;
+  color: #D0A825;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 /* ----------------------------------------
 Nav
 ------------------------------------------- */
@@ -50,25 +65,33 @@ nav li a:hover {
   color: #
 }
 .buy-now-button {
-  float: right;
   border: 2px solid #D0A825;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 20px 5px 20px;
   margin-right: 50px;
   margin-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #D0A825;
+  font-weight: bold;
+}
+.buy-now-button:hover {
+  color: #40627C;
+  background-color: #D0A825;
+  cursor: pointer;
 }
 .home-anchor {
   float: left;
 }
 .home-anchor img {
-  height: 45px;
-  width: 202px;
+  height: 60px;
+  width: 270px;
 }
 img {
   display: block;
   margin: 0 auto;
 }
 nav ul {
-  text-align: center;
+  text-align: right;
   margin: 0;
   position: fixed;
   top: 0;
@@ -88,7 +111,7 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
-  padding: 280px;
+  padding: 200px;
 }
 /* BELOW MIGHT NOT BE NECCESSARY  */
 header img {
@@ -99,7 +122,9 @@ header img {
   width: 50px;
 }
 header h1 {
-  color: #F2F2F2;
+  color: #D0A825;
+  margin-right: 650px;
+  font-size: 56px;
 }
 
 /* ----------------------------------------
@@ -138,20 +163,31 @@ Home - Description
 }
 
 /* ----------------------------------------
-Home - News
+Home - Newsletter
 ------------------------------------------- */
-
+.newsletter {
+  padding: 250px;
+  text-align: center;
+}
 
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
 footer {
   text-align: center;
-  background-color: #;
+  background-color: #40627C;
+}
+footer p {
+  margin-bottom: 0;
+  color: #EEEFF7;
+}
+footer a {
+  color: #EEEFF7;
 }
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
 }
 .footer-right {
   display: flex;
@@ -159,6 +195,8 @@ footer {
 }
 .social-media li {
   display: inline-block;
+  color: #D0A825;
+  font-size: 24px;
 }
 
 
