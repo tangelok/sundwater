@@ -122,7 +122,7 @@ header img {
   width: 50px;
 }
 header h1 {
-  color: #D0A825;
+  color: #F2F2F2;
   margin-right: 650px;
   font-size: 56px;
 }
@@ -176,6 +176,7 @@ Footer
 footer {
   text-align: center;
   background-color: #40627C;
+  padding: 10px;
 }
 footer p {
   margin-bottom: 0;
@@ -183,6 +184,7 @@ footer p {
 }
 footer a {
   color: #EEEFF7;
+  text-decoration: none;
 }
 .footer-wrapper {
   display: flex;
@@ -192,13 +194,30 @@ footer a {
 .footer-right {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 .social-media li {
   display: inline-block;
   color: #D0A825;
   font-size: 24px;
+  margin: 8px;
+  text-align: left;
 }
-
+#copyright {
+  font-size: 13px;
+  font-weight: lighter;
+}
+#my-site {
+  font-size: 13px;
+  font-weight: lighter;
+}
+.phone {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+.footer-left {
+  padding-left: 20px;
+}
 
 /* ----------------------------------------
 Problem - Header
