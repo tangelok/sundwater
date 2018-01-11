@@ -39,6 +39,9 @@ Grid Systems
 .col-2-3 {
   flex-basis: 62%;
 }
+.sp-col-1-2 {
+  flex-basis: 47%;
+}
 
 
 /* IF using no space between label col as full-col-1-2 */
@@ -399,5 +402,18 @@ About - Team
   text-align: center;
 }
 .about-team p {
+  text-align: center;
+}
+/* ----------------------------------------
+News - Items
+------------------------------------------- */
+.news-main-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+.news-newsletter {
+  padding: 100px;
   text-align: center;
 }
