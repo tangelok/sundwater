@@ -112,18 +112,18 @@ nav li a:hover {
   color: #D0A825;
 }
 .buy-now-button {
-  border: 2px solid #D0A825;
+  border: 2px solid #fffc00;
   padding: 5px 20px 5px 20px;
   margin-right: 50px;
   margin-top: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #D0A825;
+  color: #fffc00;
   font-weight: bold;
 }
 .buy-now-button:hover {
-  color: #EEEFF7;
-  background-color: #D0A825;
+  color: #40627C;
+  background-color: #fffc00;
   cursor: pointer;
 }
 .home-anchor {
@@ -210,6 +210,25 @@ Home - Description
   text-align: left;
 }
 
+
+/* ----------------------------------------
+Home - Newsletter
+------------------------------------------- */
+.home-faq {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 120px;
+}
+.faq-wrapper {
+  height: 550px;
+  width: 750px;
+  border: 5px solid #40627C;
+  font: 26px;
+  overflow: auto;
+  padding: 15px;
+  text-align: center;
+}
 /* ----------------------------------------
 Home - Newsletter
 ------------------------------------------- */
@@ -270,8 +289,8 @@ footer a:hover {
 }
 .social-media li {
   display: inline-block;
-  color: #D0A825;
-  font-size: 24px;
+  color: #fffc00;
+  font-size: 28px;
   margin: 8px;
   text-align: left;
 }
