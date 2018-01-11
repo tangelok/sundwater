@@ -36,6 +36,9 @@ Grid Systems
 .col-1-4 {
   flex-basis: 23%;
 }
+.col-2-3 {
+  flex-basis: 62%;
+}
 
 
 /* IF using no space between label col as full-col-1-2 */
@@ -298,6 +301,18 @@ Solution - Main
   padding: 50px;
   text-align: left;
 }
+/* ----------------------------------------
+Solution - Stats
+------------------------------------------- */
+.solution-stats-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.solution-stats {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
 /* ----------------------------------------
 Solution - Description
@@ -310,15 +325,79 @@ Solution - Description
   padding: 50px;
   text-align: left;
 }
+
 /* ----------------------------------------
-Solution - Stats
+Solution - Impact
 ------------------------------------------- */
-.solution-stats-wrapper {
+.solution-impact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.solution-impact-text {
+  padding: 50px;
+  text-align: left;
+}
+/* ----------------------------------------
+About - Header
+------------------------------------------- */
+.about-header {
+  background-image: none;
+  padding: 0;
+}
+/* ----------------------------------------
+About - Main
+------------------------------------------- */
+.about-main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 120px;
+}
+/* .about-main-text {
+  padding: 50px;
+  text-align: left;
+} */
+/* ----------------------------------------
+About  - Commitment
+------------------------------------------- */
+.about-commitment-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.solution-stats {
+.about-commitment-text {
+  padding: 50px;
+  text-align: left;
+}
+
+/* ----------------------------------------
+About  - Principles
+------------------------------------------- */
+.about-principles-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 150px;
+}
+.about-principles h1 {
+  text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0;
+}
+
+/* ----------------------------------------
+About - Team
+------------------------------------------- */
+.about-team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.about-team h1 {
+  text-align: center;
+}
+.about-team p {
+  text-align: center;
 }
