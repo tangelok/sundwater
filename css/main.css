@@ -23,6 +23,9 @@ h1 {
   font-size: 48px;
   color: #26393D;
 }
+h2, h3, h4 {
+    color: #26393D;
+}
 
 /* ----------------------------------------
 Grid Systems
@@ -50,12 +53,47 @@ Grid Systems
 /* ----------------------------------------
 Buttons
 ------------------------------------------- */
-.read-more {
+#read-more-problem {
   border: 2px solid #D0A825;
   margin-top: 70px;
   color: #D0A825;
   text-transform: uppercase;
   font-weight: bold;
+}
+#read-more-problem:hover {
+  background-color: #D0A825;
+  color: white;
+  border: 2px solid #D0A825;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+#read-more-solution {
+  border: 2px solid #D0A825;
+  margin-top: 70px;
+  color: #D0A825;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#read-more-solution:hover {
+  background-color: #D0A825;
+  color: white;
+  border: 2px solid #D0A825;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+#read-more-about {
+  border: 2px solid #D0A825;
+  margin-top: 70px;
+  color: #D0A825;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#read-more-about:hover {
+  background-color: #D0A825;
+  color: white;
+  border: 2px solid #D0A825;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
 }
 /* ----------------------------------------
 Nav
@@ -71,7 +109,7 @@ nav li a {
   color: #EEEFF7;
 }
 nav li a:hover {
-  color: #
+  color: #D0A825;
 }
 .buy-now-button {
   border: 2px solid #D0A825;
@@ -84,7 +122,7 @@ nav li a:hover {
   font-weight: bold;
 }
 .buy-now-button:hover {
-  color: #40627C;
+  color: #EEEFF7;
   background-color: #D0A825;
   cursor: pointer;
 }
@@ -115,7 +153,7 @@ nav ul {
 /* ----------------------------------------
 Header
 ------------------------------------------- */
-header {
+#home-header {
   background-image: url('../img/faucet.jpeg');
   background-size: cover;
   background-attachment: fixed;
@@ -179,6 +217,27 @@ Home - Newsletter
   padding: 250px;
   text-align: center;
 }
+.submit {
+  background-color: #D0A825;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 5px 250px 5px 250px;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+.submit:hover {
+  color: #D0A825;
+  background-color: white;
+  border: 2px solid #D0A825;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 5px 250px 5px 250px;
+  transition: 0.25s;
+  cursor:pointer;
+}
 
 /* ----------------------------------------
 Footer
@@ -196,6 +255,9 @@ footer a {
   color: #EEEFF7;
   text-decoration: none;
 }
+footer a:hover {
+  color: #D0A825;
+}
 .footer-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -212,6 +274,10 @@ footer a {
   font-size: 24px;
   margin: 8px;
   text-align: left;
+}
+.social-media li:hover {
+  color: #EEEFF7;
+  cursor: pointer;
 }
 #copyright {
   font-size: 13px;
@@ -232,12 +298,12 @@ footer a {
 /* ----------------------------------------
 Problem - Header
 ------------------------------------------- */
-.problem-header {
-  background-image: url('../img/faucet.jpeg');
+#problem-header {
+  background-image: url('../img/droplet.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
-  padding: 200px;
+  padding: 170px;
 }
 .problem-header h1 {
   color: #F2F2F2;
@@ -280,8 +346,8 @@ Problem - Stats
 /* ----------------------------------------
 Solution - Header
 ------------------------------------------- */
-.solution-header {
-  background-image: url('../img/faucet.jpeg');
+#solution-header {
+  background-image: url('../img/subtle-water.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
@@ -291,7 +357,6 @@ Solution - Header
   color: #F2F2F2;
   margin-right: 650px;
 }
-
 
 /* ----------------------------------------
 Solution - Main
@@ -343,10 +408,7 @@ Solution - Impact
 /* ----------------------------------------
 About - Header
 ------------------------------------------- */
-.about-header {
-  background-image: none;
-  padding: 0;
-}
+
 /* ----------------------------------------
 About - Main
 ------------------------------------------- */
@@ -414,6 +476,83 @@ News - Items
   padding: 50px;
 }
 .news-newsletter {
-  padding: 100px;
+  padding: 100px 250px 100px 250px;
   text-align: center;
+}
+#news-header {
+  padding: 100px;
+}
+
+/* ----------------------------------------
+Contact - Form
+------------------------------------------- */
+#contact-header {
+  background-image: url('../img/water-ripples.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  padding: 200px;
+}
+.contact-main {
+  padding: 100px 150px 100px 150px;
+}
+.contact-main h1 {
+  text-align: center;
+}
+.contact-main h2 {
+  text-align: center;
+}
+form {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #44545E;
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+input {
+ display: block;
+ font-family: 'Poppins', sans-serif;
+ text-transform: uppercase;
+ padding: 8px 25.5px;
+ text-align: center;
+ margin-bottom: 25px;
+ width: 100%;
+ font-size: 18px;
+ border: 2px solid #D0A825;
+}
+textarea {
+ display: block;
+ font-family: 'Poppins', sans-serif;
+ text-transform: uppercase;
+ padding: 50px 25.5px;
+ text-align: center;
+ margin-bottom: 10px;
+ width: 100%;
+ font-size: 18px;
+ border: 2px solid #D0A825;
+}
+.form-button {
+ background-color: #D0A825;
+ color: white;
+ font-family: 'Poppins', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ text-align: center;
+ margin-top: 10px;
+ width: 100%;
+ font-size: 18px;
+}
+.form-button:hover {
+ color: #D0A825;
+ background-color: white;
+ border: 2px solid #D0A825;
+ font-family: 'Poppins', sans-serif;
+ text-transform: uppercase;
+ padding: 5px 250px 5px 250px;
+ transition: 0.25s;
+ cursor:pointer;
 }
