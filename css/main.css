@@ -46,6 +46,9 @@ Grid Systems
 .sp-col-1-2 {
   flex-basis: 47%;
 }
+.col-1-2-sp {
+  flex-basis: 45%;
+}
 
 
 /* IF using no space between label col as full-col-1-2 */
@@ -223,6 +226,8 @@ Home - Stats
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 80px 100px 80px 100px;
+  text-align: center;
 }
 
 /* ----------------------------------------
@@ -362,10 +367,10 @@ footer a:hover {
 Problem - Header
 ------------------------------------------- */
 #problem-header {
-  background-image: url('../img/water-ripples.jpeg');
+  background-image: url('../img/colorful-water.jpeg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: top;
+  background-position: right;
   padding: 170px;
 }
 .problem-header h1 {
@@ -412,7 +417,13 @@ Problem - Stats
   padding: 150px 250px 250px 250px;
   text-align: center;
 }
-
+.problem-stats-wrapper-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px 100px 80px 100px;
+  text-align: center;
+}
 /* ----------------------------------------
 Solution - Header
 ------------------------------------------- */
@@ -442,16 +453,13 @@ Solution - Main
 /* ----------------------------------------
 Solution - Stats
 ------------------------------------------- */
-/* .solution-stats-wrapper {
+.solution-stats-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: ;
+  justify-content: space-between;
+  padding: 80px 250px 0px 250px;
+  text-align: center;
 }
-.solution-stats {
-  margin-top: 100px;
-  margin-bottom: 100px;
-} */
-
 /* ----------------------------------------
 Solution - Description
 ------------------------------------------- */
@@ -475,20 +483,21 @@ Solution - Impact
   padding: 50px;
   text-align: left;
 }
-/* ----------------------------------------
-About - Header
-------------------------------------------- */
+.solution-newsletter {
+  padding: 150px 250px 250px 250px;
+  text-align: center;
+}
 
 /* ----------------------------------------
 About - Main
 ------------------------------------------- */
-.about-main-wrapper {
+/* .about-main-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 150px;
 }
-/* .about-main-text {
+.about-main-text {
   padding: 50px;
   text-align: left;
 } */
@@ -499,10 +508,17 @@ About  - Commitment
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 75px;
 }
 .about-commitment-text {
   padding: 50px;
   text-align: left;
+}
+.about-aside-text {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 60px;
 }
 
 /* ----------------------------------------
@@ -512,14 +528,23 @@ About  - Principles
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 100px 150px 20px 150px;
+  padding: 100px 150px 100px 150px;
 }
 .about-principles h1 {
   text-align: center;
   margin-top: 100px;
   margin-bottom: 0;
 }
-
+.about-principles p {
+  text-align: center;
+}
+.about-principles {
+  padding-top: 50px;
+}
+.about-newsletter {
+  padding: 150px 250px 150px 250px;
+  text-align: center;
+}
 /* ----------------------------------------
 About - Team
 ------------------------------------------- */
@@ -562,7 +587,7 @@ News - Items
 Contact - Form
 ------------------------------------------- */
 #contact-header {
-  background-image: url('../img/water-ripples.jpeg');
+  background-image: url('../img/colorful-water.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
