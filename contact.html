@@ -25,8 +25,24 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="news.html">News</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li class="buy-now-button">Get Yours</li>
-            <!-- <li class="buy-now"><a href="product.html"></a>Buy Now</li> -->
+            <!-- Trigger/Open The Modal -->
+            <button class="buy-now-button" id="myBtn">Get Yours</button>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 class="form-header">Get your SunDwater unit NOW!</h2>
+                <p class="form-header">Fill out the form below and we'll reach out to you shortly!</p>
+                  <form action="https://formspree.io/krineangelo@gmail.com" method="POST" id="contact-form">
+                  <input type="text" name="full-name" placeholder="Full Name" id="">
+                  <input type="email" name="email" placeholder="Email">
+                  <input type="text" name="subject" placeholder="Subject" id="">
+                  <textarea placeholder="Message" name="message" form="contact-form"></textarea>
+                  <button class="form-button" type="submit">Submit</button>
+                  </form>
+                  </div>
+                </div>
           </ul>
           <h1>Contact Us</h1>
         </nav>

@@ -65,9 +65,9 @@ Buttons
   font-weight: bold;
 }
 #read-more-problem:hover {
-  background-color: #D0A825;
+  background-color: #92CDCF;
   color: white;
-  border: 2px solid #D0A825;
+  border: 2px solid #92CDCF;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -79,9 +79,9 @@ Buttons
   font-weight: bold;
 }
 #read-more-solution:hover {
-  background-color: #D0A825;
+  background-color: #92CDCF;
   color: white;
-  border: 2px solid #D0A825;
+  border: 2px solid #92CDCF;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -93,9 +93,9 @@ Buttons
   font-weight: bold;
 }
 #read-more-about:hover {
-  background-color: #D0A825;
+  background-color: #92CDCF;
   color: white;
-  border: 2px solid #D0A825;
+  border: 2px solid #92CDCF;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -229,7 +229,6 @@ Home - Stats
   padding: 80px 100px 80px 100px;
   text-align: center;
 }
-
 /* ----------------------------------------
 Home - Solution
 ------------------------------------------- */
@@ -286,7 +285,7 @@ Home - Newsletter
   text-align: center;
 }
 .submit {
-  background-color: #D0A825;
+  background-color: #92CDCF;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -297,9 +296,9 @@ Home - Newsletter
   font-size: 18px;
 }
 .submit:hover {
-  color: #D0A825;
+  color: #92CDCF;
   background-color: white;
-  border: 2px solid #D0A825;
+  border: 2px solid #92CDCF;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   padding: 5px 250px 5px 250px;
@@ -428,11 +427,11 @@ Problem - Stats
 Solution - Header
 ------------------------------------------- */
 #solution-header {
-  /* background-image: url('../img/subtle-water.jpeg');
+  background-image: url('../img/colorful-water.jpeg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: top; */
-  padding: 100px;
+  background-position: top;
+  padding: 200px;
 }
 .solution-header h1 {
   color: #F2F2F2;
@@ -574,13 +573,24 @@ News - Items
   padding: 100px 250px 100px 250px;
   text-align: center;
 }
-#news-header {
-  padding: 100px 100px 40px 100px;
-}
+
 #news-header h1 {
-  color: #31353D;
   text-align: center;
   margin-right: 0;
+}
+.news-main h1 a {
+  color: #40627C;
+  cursor: pointer;
+}
+.news-main h1 a:hover {
+  color: #92CDCF;
+}
+#news-header {
+  background-image: url('../img/colorful-water.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  padding: 200px;
 }
 
 /* ----------------------------------------
@@ -626,7 +636,7 @@ input {
  margin-bottom: 25px;
  width: 100%;
  font-size: 18px;
- border: 2px solid #D0A825;
+ border: 2px solid #92CDCF;
 }
 textarea {
  display: block;
@@ -637,10 +647,10 @@ textarea {
  margin-bottom: 10px;
  width: 100%;
  font-size: 18px;
- border: 2px solid #D0A825;
+ border: 2px solid #92CDCF;
 }
 .form-button {
- background-color: #D0A825;
+ background-color: #92CDCF;
  color: white;
  font-family: 'Poppins', sans-serif;
  text-transform: uppercase;
@@ -651,9 +661,9 @@ textarea {
  font-size: 18px;
 }
 .form-button:hover {
- color: #D0A825;
+ color: #92CDCF;
  background-color: white;
- border: 2px solid #D0A825;
+ border: 2px solid #92CDCF;
  font-family: 'Poppins', sans-serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
