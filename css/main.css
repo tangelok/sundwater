@@ -49,7 +49,9 @@ Grid Systems
 .col-1-2-sp {
   flex-basis: 45%;
 }
-
+.footer-col-1-3 {
+  flex-basis: 33%;
+}
 
 /* IF using no space between label col as full-col-1-2 */
 
@@ -334,13 +336,14 @@ footer a:hover {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
+  text-align: center;
 }
 .social-media li {
   display: inline-block;
   color: #fffc00;
   font-size: 28px;
   margin: 8px;
-  text-align: left;
+  text-align: center;
 }
 .social-media li:hover {
   color: #EEEFF7;
@@ -354,12 +357,12 @@ footer a:hover {
   font-size: 13px;
   font-weight: lighter;
 }
-.phone {
-  font-size: 48px;
+.footer-email {
+  font-size: 18px;
   margin-bottom: 60px;
 }
 .footer-left {
-  padding-left: 20px;
+  text-align: center;
 }
 
 /* ----------------------------------------
@@ -486,7 +489,16 @@ Solution - Impact
   padding: 150px 250px 250px 250px;
   text-align: center;
 }
-
+.pdf {
+  text-align: center;
+  padding: 30px 100px 80px 100px;
+}
+.pdf a:hover {
+  color: #92CDCF;
+}
+.pdf a {
+  color: #40627C;
+}
 /* ----------------------------------------
 About - Main
 ------------------------------------------- */
@@ -517,7 +529,6 @@ About  - Commitment
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin-top: 60px;
 }
 
 /* ----------------------------------------
@@ -527,18 +538,10 @@ About  - Principles
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 100px 150px 100px 150px;
+  padding: 50px;
 }
-.about-principles h1 {
+.about-principles h3 {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 0;
-}
-.about-principles p {
-  text-align: center;
-}
-.about-principles {
-  padding-top: 50px;
 }
 .about-newsletter {
   padding: 150px 250px 150px 250px;
@@ -669,4 +672,217 @@ textarea {
  padding: 5px 250px 5px 250px;
  transition: 0.25s;
  cursor:pointer;
+}
+
+/* ----------------------------------------
+Responsive Design
+------------------------------------------- */
+@media screen and (max-width: 1100px) {
+   h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .home-problem-text {
+    padding: 20px;
+  }
+  .home-solution-text {
+    padding: 30px;
+  }
+  .home-description-text {
+    padding: 40px;
+  }
+  .newsletter {
+    padding: 150px;
+  }
+  /* .email {
+    font-size: 35px;
+  } */
+  .solution-main-text {
+    padding: 30px;
+  }
+  .solution-description-text {
+    padding: 30px;
+  }
+  .solution-impact-text {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+   h1 {
+    font-size: 36px;
+    margin: 5px;
+  }
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+  header h1{
+  margin-right: 250px;
+  }
+  .problem-newsletter {
+    padding: 150px;
+  }
+  .solution-newsletter {
+    padding: 150px;
+  }
+  .about-principles-wrapper {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .about-newsletter {
+    padding: 150px;
+  }
+  .news-newsletter {
+    padding: 150px;
+  }
+  #read-more-problem {
+    margin-top: 30px;
+  }
+  #read-more-solution {
+    margin-top: 30px;
+  }
+  #read-more-about {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .home-stats-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #read-more-problem {
+    margin-top: 10px;
+  }
+  #read-more-solution {
+    margin-top: 10px;
+  }
+  #read-more-about {
+    margin-top: 10px;
+  }
+  .problem-stats-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .problem-main-text {
+    padding: 20px;
+  }
+  .problem-description-text {
+    padding: 20px;
+  }
+  .about-principles h2 {
+    font-size: 20px;
+  }
+  .about-commitment-text {
+    padding: 20px;
+  }
+  .contact-main {
+    padding: 100px 50px 20px 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .home-problem-wrapper {
+    display: block;
+  }
+  .home-problem-text {
+    text-align: center;
+  }
+  .home-stats-wrapper {
+    padding: 20px;
+  }
+  .home-solution-wrapper {
+    display: block;
+  }
+  .home-solution-text {
+    text-align: center;
+  }
+  .home-description-wrapper {
+    display: block;
+  }
+  .home-description-text {
+    text-align: center;
+  }
+  .home-faq {
+    padding: 70px;
+  }
+  .newsletter {
+    padding: 50px;
+  }
+  .hide {
+    display: none;
+  }
+  .problem-main-wrapper {
+    display: block;
+  }
+  .problem-main-text {
+    text-align: center;
+  }
+  .problem-stats-wrapper-1 {
+    padding: 40px;
+  }
+  .problem-stats-wrapper {
+    padding: 40px;
+  }
+  .problem-description-wrapper {
+    display: block;
+  }
+  .problem-description-text {
+    text-align: center;
+  }
+  .problem-newsletter {
+    padding: 50px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  .solution-main-wrapper {
+    display: block;
+  }
+  .solution-main-text {
+    text-align: center;
+  }
+  .solution-description-wrapper {
+    display: block;
+  }
+  .solution-description-text {
+    text-align: center;
+  }
+  .solution-impact-text {
+    text-align: center;
+  }
+  .solution-impact-wrapper {
+    display: block;
+  }
+  .solution-stats-wrapper {
+    padding: 100px;
+  }
+  .solution-newsletter {
+    padding: 50px;
+  }
+  .pdf {
+    padding: 60px;
+  }
+  .md-col-1-2 {
+    flex-basis: 48%;
+  }
+  .about-newsletter {
+    padding: 50px;
+  }
+  .news-newsletter {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-stats-wrapper {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .problem-stats-wrapper-1 {
+    display: block;
+  }
+  .problem-stats-wrapper {
+    display: block;
+  }
 }
