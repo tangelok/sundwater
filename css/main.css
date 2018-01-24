@@ -208,6 +208,7 @@ nav ul {
 }
 .hamburger:hover {
   color: #D1DBBD;
+  cursor: pointer;
 }
 
 .side-nav {
@@ -253,7 +254,7 @@ nav ul {
     color: #92CDCF;
 }
 .line {
-  border-bottom: 4px solid #40627C;
+  border-bottom: 4px solid #92CDCF;
   width: 35px;
   margin-bottom: 6px;
 }
@@ -776,6 +777,9 @@ Responsive Design
   .solution-impact-text h1 {
     margin-top: 0;
   }
+  .about-commitment-text {
+    padding: 50px 110px 110px 110px;
+  }
 }
 @media screen and (max-width: 1150px) {
   .solution-main-text {
@@ -855,6 +859,39 @@ Responsive Design
   .solution-main-text {
     padding: 10px;
   }
+  nav ul {
+    font-size: 16px;
+  }
+  .home-anchor img {
+    height: 40px;
+    width: 200px;
+  }
+  .hamburger {
+    display: block;
+    text-align: center;
+  }
+  nav ul {
+    display: none;
+  }
+  .hide-about {
+    display: none;
+  }
+  .about-principles h2 {
+    font-size: 20px;
+  }
+  .about-commitment-wrapper {
+    margin-top: 105px;
+  }
+  .about-commitment-text {
+    padding: 20px;
+    text-align: center;
+  }
+  .about-newsletter {
+    padding: 50px;
+  }
+  .ab-col-1 {
+    flex-basis: 98%;
+  }
 }
 @media screen and (max-width: 850px) {
   .home-problem-wrapper {
@@ -913,18 +950,6 @@ Responsive Design
   .problem-newsletter {
     padding: 50px;
   }
-  .about-principles h2 {
-    font-size: 20px;
-  }
-  .about-commitment-wrapper {
-    margin-top: 105px;
-  }
-  .about-commitment-text {
-    padding: 20px;
-  }
-  .about-newsletter {
-    padding: 50px;
-  }
   .contact-main {
     padding: 100px 50px 20px 50px;
   }
@@ -968,6 +993,11 @@ Responsive Design
     padding: 50px;
   }
 }
+@media screen and (max-width: 800px) {
+  #problem-header h1 {
+    font-size: 52px;
+  }
+}
 @media screen and (max-width: 700px) {
   .hide {
     display: none;
@@ -997,6 +1027,13 @@ Responsive Design
   .contact-main h2 {
     font-size: 22px;
   }
+  .video iframe {
+    width: 500px;
+    height: 250px;
+  }
+  header h1 {
+    padding: 200px;
+  }
 }
 @media screen and (max-width: 650px) {
   .home-stats-wrapper {
@@ -1004,15 +1041,6 @@ Responsive Design
   }
   .sm-col-1 {
     flex-basis: 98%;
-  }
-  .about-commitment-wrapper {
-    margin-top: 140px;
-  }
-  .about-commitment-text {
-    text-align: center;
-  }
-  .hide-about {
-    display: none;
   }
   .news-main {
     text-align: center;
@@ -1022,6 +1050,13 @@ Responsive Design
   }
   .footer-right {
     margin-bottom: 5px;
+  }
+  .video iframe {
+    width: 450px;
+    height: 200px;
+  }
+  header h1 {
+    padding: 150px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -1040,11 +1075,22 @@ Responsive Design
   .contact-main h2 {
     font-size: 20px;
   }
+  .video iframe {
+    width: 400px;
+    height: 200px;
+  }
+  .pdf {
+    padding: 30px;
+  }
+  .submit {
+    padding: 5px 10px 5px 10px;
+  }
 }
 @media screen and (max-width: 550px) {
   header h1 {
     font-size: 40px;
     text-align: center;
+    padding: 150px;
   }
   .news-main {
     padding: 10px;
@@ -1052,19 +1098,21 @@ Responsive Design
   .news-main-row {
     padding: 0px;
   }
-  .hamburger {
-    display: block;
-    text-align: center;
+  .video iframe {
+    width: 450px;
+    height: 200px;
   }
-  nav ul {
-    display: none;
+  .pdf {
+    padding: 15px;
+  }
+  .solution-stats-wrapper {
+    padding: 0px 50px 30px 50px;
   }
 }
 @media screen and (max-width: 450px) {
   header h1 {
-    font-size: 30px;
-    padding: 220px 150px 150px 150px;
-    margin-top: 50px;
+    font-size: 40px;
+    padding: 100px;
   }
   .home-faq {
     padding: 20px;
@@ -1073,7 +1121,7 @@ Responsive Design
     padding: 5px 10px 5px 10px;
   }
   .about-commitment-wrapper {
-    margin-top: 180px;
+    margin-top: 80px;
   }
   .about-principles-wrapper {
     padding-left: 40px;
@@ -1082,14 +1130,33 @@ Responsive Design
   .news-item {
     padding-bottom: 30px;
   }
-  header {
-    background-image: none;
-  }
   .pdf {
     padding: 10px;
   }
   .solution-stats-wrapper {
     padding: 30px;
+  }
+  .contact-main {
+    padding: 30px 10px 10px 10px;
+  }
+  #copyright {
+    margin-top: 35px;
+  }
+  .news-newsletter {
+    padding: 20px;
+  }
+  form {
+    padding: 20px;
+  }
+  .video iframe {
+    width: 320px;
+    height: 200px;
+  }
+  .pdf {
+    padding: 10px;
+  }
+  .solution-stats-wrapper {
+    padding: 0px 30px 30px 30px;
   }
 }
 @media screen and (max-width: 300px) {
