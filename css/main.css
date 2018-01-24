@@ -1114,6 +1114,9 @@ Responsive Design
     font-size: 40px;
     padding: 100px;
   }
+  #problem-header h1 {
+    font-size: 40px;
+  }
   .home-faq {
     padding: 20px;
   }
@@ -1157,6 +1160,9 @@ Responsive Design
   }
   .solution-stats-wrapper {
     padding: 0px 30px 30px 30px;
+  }
+  .hamburger-button {
+    text-align: center;
   }
 }
 @media screen and (max-width: 300px) {
