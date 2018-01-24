@@ -12,7 +12,6 @@ $('#read-more-about').on('click', function () {
   });
 
 
-
   // Get the modal
   var modal = document.getElementById('myModal');
 
@@ -42,13 +41,11 @@ $('#read-more-about').on('click', function () {
 
 
   /* ----------------------------------------
-  Responsive Design Add Class
+  Responsive Design
   ------------------------------------------- */
-  $(window).on('scroll', function () {
-var distanceScrolled = $(window).scrollTop();
-
-console.log('The distance scrolled is: ' + distanceScrolled);
-if (distanceScrolled>=300) {
-  $('#home-header').removeId('home-header');
-}
-});
+  $('.hamburger').on('click', function (){
+    $('.side-nav').toggleClass('open');
+  });
+  $('.exit').on('click', function(){
+    $('.side-nav').removeClass('open');
+  });
