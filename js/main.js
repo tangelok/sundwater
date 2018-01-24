@@ -38,3 +38,17 @@ $('#read-more-about').on('click', function () {
           modal.style.display = "none";
       }
   }
+
+
+
+  /* ----------------------------------------
+  Responsive Design Add Class
+  ------------------------------------------- */
+  $(window).on('scroll', function () {
+var distanceScrolled = $(window).scrollTop();
+
+console.log('The distance scrolled is: ' + distanceScrolled);
+if (distanceScrolled>=300) {
+  $('#home-header').removeId('home-header');
+}
+});

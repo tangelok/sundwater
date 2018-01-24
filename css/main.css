@@ -210,6 +210,7 @@ header h1 {
   text-align: center;
   font-size: 56px;
   padding: 240px;
+  margin: 0;
 }
 /* ----------------------------------------
 Home - Problem
@@ -280,6 +281,12 @@ Home - Newsletter
   text-align: center;
   background-color: #EEEFF7;
 }
+.faq-subtitle {
+  margin-bottom: 20px;
+}
+.faq-wrapper h1 {
+  margin-bottom: 5px;
+}
 /* ----------------------------------------
 Home - Newsletter
 ------------------------------------------- */
@@ -336,7 +343,8 @@ footer a:hover {
 .footer-right {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .social-media li {
@@ -364,6 +372,8 @@ footer a:hover {
 }
 .footer-left {
   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .phone {
   margin-top: 50px;
@@ -458,6 +468,10 @@ Solution - Stats
   padding: 80px 250px 0px 250px;
   text-align: center;
 }
+.video iframe {
+  width: 860px;
+  height: 550px;
+}
 /* ----------------------------------------
 Solution - Description
 ------------------------------------------- */
@@ -518,13 +532,14 @@ About  - Commitment
   margin-top: 75px;
 }
 .about-commitment-text {
-  padding: 50px;
+  padding: 50px 150px 150px 150px;
   text-align: left;
 }
 .about-aside-text {
   display: flex;
   text-align: center;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 /* ----------------------------------------
@@ -684,6 +699,10 @@ Responsive Design
   #read-more-about {
     margin-top: 10px;
   }
+  .video iframe {
+    width: 760px;
+    height: 450px;
+  }
 }
 @media screen and (max-width: 1185px) {
   .solution-description-text {
@@ -696,6 +715,10 @@ Responsive Design
 @media screen and (max-width: 1150px) {
   .solution-main-text {
     padding: 20px;
+  }
+  .video iframe {
+    width: 660px;
+    height: 350px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -737,11 +760,20 @@ Responsive Design
   }
   p {
     font-size: 16px;
-    margin: 0;
   }
   .about-principles-wrapper {
     padding-right: 80px;
     padding-left: 80px;
+  }
+  .solution-stats-wrapper {
+    padding: 80px 150px 0px 150px;
+  }
+  .video iframe {
+    width: 700px;
+    height: 400px;
+  }
+  .hide-early-early {
+    display: none;
   }
 }
 @media screen and (max-width: 950px) {
@@ -750,6 +782,13 @@ Responsive Design
   }
   .home-solution-text {
     text-align: center;
+  }
+  .video iframe {
+    width: 550px;
+    height: 300px;
+  }
+  .solution-main-text {
+    padding: 10px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -849,7 +888,7 @@ Responsive Design
     display: block;
   }
   .solution-stats-wrapper {
-    padding: 100px;
+    padding: 30px 100px 30px 100px;
   }
   .solution-newsletter {
     padding: 50px;
@@ -875,13 +914,28 @@ Responsive Design
     font-size: 24px;
     text-align: center;
   }
+  .footer-left {
+    margin-bottom: 5px;
+  }
+  .footer-right {
+    margin-bottom: 5px;
+  }
+  .solution-stats-wrapper {
+    padding: 0px 100px 30px 100px;
+  }
+  .contact-main {
+    padding: 50px 40px 20px 40px;
+  }
+  .contact-main h1 {
+    font-size: 28px;
+  }
+  .contact-main h2 {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 650px) {
   .home-stats-wrapper {
     display: block;
-  }
-  .newsletter {
-    padding: 20px;
   }
   .sm-col-1 {
     flex-basis: 98%;
@@ -898,6 +952,12 @@ Responsive Design
   .news-main {
     text-align: center;
   }
+  .footer-left {
+    margin-bottom: 5px;
+  }
+  .footer-right {
+    margin-bottom: 5px;
+  }
 }
 @media screen and (max-width: 600px) {
   .problem-stats-wrapper-1 {
@@ -906,8 +966,14 @@ Responsive Design
   .problem-stats-wrapper {
     display: block;
   }
-  .newsletter {
-    padding: 10px;
+  .contact-main {
+    padding: 40px 20px 20px 20px;
+  }
+  .contact-main h1 {
+    font-size: 26px;
+  }
+  .contact-main h2 {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -915,15 +981,18 @@ Responsive Design
     font-size: 40px;
     text-align: center;
   }
-  .hamburger {
-  display: block;
-  text-align: right;
-}
+  .news-main {
+    padding: 10px;
+  }
+  .news-main-row {
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 450px) {
   header h1 {
     font-size: 30px;
-    padding-top: 100px;
+    padding: 220px 150px 150px 150px;
+    margin-top: 50px;
   }
   .home-faq {
     padding: 20px;
@@ -931,5 +1000,28 @@ Responsive Design
   .submit {
     padding: 5px 10px 5px 10px;
   }
-
+  .about-commitment-wrapper {
+    margin-top: 180px;
+  }
+  .about-principles-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .news-item {
+    padding-bottom: 30px;
+  }
+  header {
+    background-image: none;
+  }
+  .pdf {
+    padding: 10px;
+  }
+  .solution-stats-wrapper {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .social-media {
+    text-align: center;
+  }
 }
