@@ -227,10 +227,14 @@ nav ul {
   top: 0;
   left: 0;
   padding: 20px 0;
+  text-align: center;
 }
 #nav-sidebar ul {
   color: #92CDCF;
-  margin-left: 20px;
+}
+#nav-sidebar li {
+  margin-bottom: 10px;
+  margin-right: 35px;
 }
 #nav-sidebar li a {
   text-decoration: none;
@@ -260,6 +264,13 @@ nav ul {
 }
 .line:last-child {
   margin-bottom: 0;
+}
+.side-nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+.hamburger-button {
+  margin-left: 60px;
 }
 
 /* ----------------------------------------
@@ -659,6 +670,10 @@ News - Items
   padding: 100px 250px 100px 250px;
   text-align: center;
 }
+.contact-newsletter {
+  padding: 150px;
+  text-align: center;
+}
 #news-header h1 {
   text-align: center;
 }
@@ -789,6 +804,9 @@ Responsive Design
     width: 660px;
     height: 350px;
   }
+  .problem-description-text {
+    padding: 40px;
+  }
 }
 @media screen and (max-width: 1100px) {
    h1 {
@@ -821,6 +839,16 @@ Responsive Design
   .news-newsletter {
     padding: 50px;
   }
+  .contact-newsletter {
+    padding: 50px;
+  }
+  .problem-description-text {
+    padding-top: 10px;
+  }
+  .video iframe {
+    width: 620px;
+    height: 350px;
+  }
 }
 @media screen and (max-width: 1000px) {
    h1 {
@@ -838,8 +866,8 @@ Responsive Design
     padding: 80px 150px 0px 150px;
   }
   .video iframe {
-    width: 700px;
-    height: 400px;
+    width: 600px;
+    height: 350px;
   }
   .hide-early-early {
     display: none;
@@ -853,8 +881,8 @@ Responsive Design
     text-align: center;
   }
   .video iframe {
-    width: 550px;
-    height: 300px;
+    width: 630px;
+    height: 350px;
   }
   .solution-main-text {
     padding: 10px;
@@ -891,6 +919,14 @@ Responsive Design
   }
   .ab-col-1 {
     flex-basis: 98%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .problem-main-text {
+    padding: 30px;
+  }
+  .problem-description-text {
+    padding: 10px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -990,6 +1026,9 @@ Responsive Design
     flex-basis: 48%;
   }
   .news-newsletter {
+    padding: 50px;
+  }
+  .contact-newsletter {
     padding: 50px;
   }
 }
@@ -1148,6 +1187,9 @@ Responsive Design
   .news-newsletter {
     padding: 20px;
   }
+  .contact-newsletter {
+    padding: 20px;
+  }
   form {
     padding: 20px;
   }
@@ -1163,6 +1205,11 @@ Responsive Design
   }
   .hamburger-button {
     text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hamburger-button {
+    margin-left: 80px;
   }
 }
 @media screen and (max-width: 300px) {
