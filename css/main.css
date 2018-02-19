@@ -2,7 +2,7 @@
 /* ==========================================================================
    Base styles:
    ========================================================================== */
-/* Fix to include padding and border in the total width for each element */
+/* Fix to include padding and border in the total width for each x */
 * {
   box-sizing: border-box;
 }
@@ -338,7 +338,7 @@ Home - Description
 /* ----------------------------------------
 Home - Newsletter
 ------------------------------------------- */
-.home-faq {
+#home-faq {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
