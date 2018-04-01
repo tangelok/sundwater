@@ -13,19 +13,19 @@ img {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #EEEFF7;
+  /* background-color: #EEEFF7; */
 }
 p {
   font-weight: 400;
-  color: #26393D;
+  color: #2D5EB1;
 }
 h1 {
   font-weight: 600;
   font-size: 48px;
-  color: #26393D;
+  color: #2D5EB1;
 }
 h2, h3, h4 {
-    color: #26393D;
+    color: #2D5EB1;
 }
 
 /* ----------------------------------------
@@ -60,44 +60,44 @@ Grid Systems
 Buttons
 ------------------------------------------- */
 #read-more-problem {
-  border: 2px solid #40627C;
+  border: 2px solid #2D5EB1;
   margin-top: 70px;
-  color: #40627C;
+  color: #2D5EB1;
   text-transform: uppercase;
   font-weight: bold;
 }
 #read-more-problem:hover {
-  background-color: #92CDCF;
+  background-color: #FEC52A;
   color: white;
-  border: 2px solid #92CDCF;
+  border: 2px solid #FEC52A;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 #read-more-solution {
-  border: 2px solid #40627C;
+  border: 2px solid #2D5EB1;
   margin-top: 70px;
-  color: #40627C;
+  color: #2D5EB1;
   text-transform: uppercase;
   font-weight: bold;
 }
 #read-more-solution:hover {
-  background-color: #92CDCF;
+  background-color: #FEC52A;
   color: white;
-  border: 2px solid #92CDCF;
+  border: 2px solid #FEC52A;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
 #read-more-about {
-  border: 2px solid #40627C;
+  border: 2px solid #2D5EB1;
   margin-top: 70px;
-  color: #40627C;
+  color: #2D5EB1;
   text-transform: uppercase;
   font-weight: bold;
 }
 #read-more-about:hover {
-  background-color: #92CDCF;
+  background-color: #FEC52A;
   color: white;
-  border: 2px solid #92CDCF;
+  border: 2px solid #FEC52A;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
 }
@@ -150,35 +150,35 @@ nav li {
 nav li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #EEEFF7;
+  color: #FFFFFF;
 }
 nav li a:hover {
-  color: #FFFC00;
+  color: #FEC52A;
 }
 .buy-now-button {
-  border: 2px solid #fffc00;
+  border: 2px solid #FEC52A;
   padding: 5px 20px 5px 20px;
   margin-right: 50px;
   margin-top: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fffc00;
+  color: #FFFFFF;
   font-weight: bold;
-  background-color: #40627C;
+  background-color: #2D5EB1;
 }
 .buy-now-button:hover {
-  color: #40627C;
-  background-color: #fffc00;
+  color: #2D5EB1;
+  background-color: #FEC52A;
   cursor: pointer;
 }
 .home-anchor {
   float: left;
 }
-.home-anchor img {
-  height: 100px;
-  width: 650px;
+/* .home-anchor img {
+  height: 200px;
+  width: 250px;
   margin-left: -170px;
-}
+} */
 img {
   display: block;
   margin: 0 auto;
@@ -190,7 +190,7 @@ nav ul {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #40627C;
+  background-color: #2D5EB1;
   padding: 0;
 }
 .nav-anchor {
@@ -202,28 +202,28 @@ nav ul {
 	font-size: 45px;
 	margin: 10px 0;
 	padding-left: 20px;
-  color: #703030;
+  color: #2D5EB1;
   position: fixed;
   top: 0;
   left: 0;
 }
 .hamburger:hover {
-  color: #D1DBBD;
+  color: #FEC52A;
   cursor: pointer;
 }
 
 .side-nav {
-  transform: translateX(-300px);
+  transform: translateX(-200px);
   transition: all 350ms ease-in-out;
 }
 .open {
   transform: translateX(0px);
 }
 #nav-sidebar {
-  width: 300px;
+  width: 200px;
   height: 100%;
-  background-color:#40627C;
-  color: #3E606F;
+  background-color:#2D5EB1;
+  color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -231,7 +231,7 @@ nav ul {
   text-align: center;
 }
 #nav-sidebar ul {
-  color: #92CDCF;
+  color: white;
 }
 #nav-sidebar li {
   margin-bottom: 10px;
@@ -239,7 +239,7 @@ nav ul {
 }
 #nav-sidebar li a {
   text-decoration: none;
-  color: #92CDCF;
+  color: white;
 }
 #nav-sidebar li a:hover {
   text-decoration: none;
@@ -248,7 +248,6 @@ nav ul {
 #nav-sidebar h2 {
   color: #92CDCF;
   text-align: center;
-  margin-left: -130px;
 }
 .exit {
     position: absolute;
@@ -257,10 +256,10 @@ nav ul {
     text-transform: none;
     font-size: 20px;
     text-decoration: none;
-    color: #92CDCF;
+    color: #FEC52A;
 }
 .line {
-  border-bottom: 4px solid #92CDCF;
+  border-bottom: 4px solid #FEC52A;
   width: 35px;
   margin-bottom: 6px;
 }
@@ -285,7 +284,7 @@ Header
   background-position: top;
 }
 header h1 {
-  color: #F2F2F2;
+  color: white;
   text-align: center;
   font-size: 56px;
   padding: 240px;
@@ -353,12 +352,12 @@ Home - Newsletter
 .faq-wrapper {
   height: 550px;
   width: 750px;
-  border: 5px solid #40627C;
+  border: 5px solid #2D5EB1;
   font: 26px;
   overflow: auto;
   padding: 15px;
   text-align: center;
-  background-color: #EEEFF7;
+  /* background-color: #EEEFF7; */
 }
 .faq-subtitle {
   margin-bottom: 20px;
@@ -374,7 +373,7 @@ Home - Newsletter
   text-align: center;
 }
 .submit {
-  background-color: #92CDCF;
+  background-color: #2D5EB1;
   color: white;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
@@ -385,9 +384,9 @@ Home - Newsletter
   font-size: 18px;
 }
 .submit:hover {
-  color: #92CDCF;
+  color: #2D5EB1;
   background-color: white;
-  border: 2px solid #92CDCF;
+  border: 2px solid #2D5EB1;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   padding: 5px 250px 5px 250px;
@@ -400,19 +399,19 @@ Footer
 ------------------------------------------- */
 footer {
   text-align: center;
-  background-color: #40627C;
+  background-color: #2D5EB1;
   padding: 10px;
 }
 footer p {
   margin-bottom: 0;
-  color: #EEEFF7;
+  color: white;
 }
 footer a {
   color: #EEEFF7;
   text-decoration: none;
 }
 footer a:hover {
-  color: #FFFC00;
+  color: #FEC52A;
 }
 .footer-wrapper {
   display: flex;
@@ -428,7 +427,7 @@ footer a:hover {
 }
 .social-media li {
   display: inline-block;
-  color: #fffc00;
+  color: #FEC52A;
   font-size: 28px;
   margin: 8px;
   text-align: center;
@@ -581,12 +580,14 @@ Solution - Impact
 .pdf {
   text-align: center;
   padding: 0px 100px 80px 100px;
+  font-size: 22px;
 }
 .pdf a:hover {
   color: #92CDCF;
 }
 .pdf a {
   color: #40627C;
+  font-size: 28px;
 }
 /* ----------------------------------------
 About - Main
@@ -731,7 +732,7 @@ input {
  margin-bottom: 25px;
  width: 100%;
  font-size: 18px;
- border: 2px solid #92CDCF;
+ border: 2px solid #2D5EB1;
 }
 textarea {
  display: block;
@@ -742,10 +743,10 @@ textarea {
  margin-bottom: 10px;
  width: 100%;
  font-size: 18px;
- border: 2px solid #92CDCF;
+ border: 2px solid #2D5EB1;
 }
 .form-button {
- background-color: #92CDCF;
+ background-color: #2D5EB1;
  color: white;
  font-family: 'Poppins', sans-serif;
  text-transform: uppercase;
@@ -756,9 +757,9 @@ textarea {
  font-size: 18px;
 }
 .form-button:hover {
- color: #92CDCF;
+ color: #2D5EB1;
  background-color: white;
- border: 2px solid #92CDCF;
+ border: 2px solid #2D5EB1;
  font-family: 'Poppins', sans-serif;
  text-transform: uppercase;
  padding: 5px 250px 5px 250px;
@@ -769,6 +770,15 @@ textarea {
 /* ----------------------------------------
 Responsive Design
 ------------------------------------------- */
+@media screen and (min-width: 1400px) {
+  .about-principles h2 {
+    padding-top: 30px;
+  }
+  img {
+    width: 100%;
+    padding: 0px;
+  }
+}
 @media screen and (max-width: 1300px) {
   .solution-impact-text {
     padding: 20px;
@@ -1250,6 +1260,21 @@ Responsive Design
   .hamburger-button {
     text-align: center;
   }
+  #home-header {
+    background-size: 100% 13%;
+  }
+  #problem-header {
+    background-size: 100% 15%;
+  }
+  #solution-header {
+    background-size: 100% 15%;
+  }
+  #news-header {
+    background-size: 100% 15%;
+  }
+  #contact-header {
+    background-size: 100% 20%;
+  }
 }
 @media screen and (max-width: 400px) {
   .video iframe {
@@ -1261,27 +1286,17 @@ Responsive Design
   .hamburger-button {
     margin-left: 50px;
   }
-  /* #home-header {
-    background-image: url('../img/colorful-water.jpeg');
-    background-size: cover;
-    background-position: center;
-  }
-  #problem-header {
-    background-image: url('../img/colorful-water.jpeg');
-    background-size: cover;
-    background-position: center;
-  }
-  #solution-header {
-    background-image: url('../img/colorful-water.jpeg');
-    background-size: cover;
-    background-position: center;
-  } */
+
   #home-faq {
     padding: 10px;
   }
   .faq-wrapper {
     height: 350px;
     width: 300px;
+  }
+  .video iframe {
+    width: 320px;
+    height: 200px;
   }
 }
 @media screen and (max-width: 300px) {
